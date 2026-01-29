@@ -1,19 +1,28 @@
-# Python
+# Virtual env
 venv/
+.venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+.env.local
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Python
 __pycache__/
 *.py[cod]
 *.pyo
 .Python
 *.so
-.env
-.env.*
-!.env.example
+*.egg-info/
+.eggs/
 
-# DB
-*.sqlite3
-db.sqlite3
-
-# IDE, OS
+# IDE & OS
 .idea
 .vscode
 .DS_Store
